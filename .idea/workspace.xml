@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b28056b-18a4-4127-b647-bff2a319e68b" name="Default" comment="" />
+    <list default="true" id="4b28056b-18a4-4127-b647-bff2a319e68b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+    </list>
     <ignored path="bright-inventions.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4b28056b-18a4-4127-b647-bff2a319e68b" time="1370331731359" ignored="false" />
@@ -25,7 +27,7 @@
       <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="77" selection-start="782" selection-end="782" vertical-scroll-proportion="0.7492114">
+            <state line="211" column="9" selection-start="5932" selection-end="5932" vertical-scroll-proportion="0.92113566">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -222,7 +224,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="77" selection-start="782" selection-end="782" vertical-scroll-proportion="0.7492114">
+        <state line="211" column="9" selection-start="5932" selection-end="5932" vertical-scroll-proportion="0.92113566">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
