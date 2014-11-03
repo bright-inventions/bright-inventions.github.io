@@ -28,27 +28,17 @@
 
     <div class="container">
 
-        <div class="page1 slide" id="home" >
+        <div class="page1 slide" id="home">
 
-            <a href="" class="hiring-link">We're hiring!</a>
+            <div class="top-links">
+                <a href="http://blog.brightinventions.pl">Visit our blog</a>
+                <a href="" class="aboutus-link" style="display: none">About us</a>
+                <a href="" class="hiring-link">We're hiring!</a>
+            </div>
 
             <img src="/img/logo2-bbd0415e96ee41bf17af3af4cb7e404c.png" class="logo"/>
 
             <h1>We’re a studio in Poland with a team of great developers who build first-rate mobile apps.</h1>
-
-            <!--<div class="row boxes">-->
-            <!--<div class="large-6 columns">-->
-            <!--<div class="panel">-->
-            <!--<p>We're hiring!</p>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="large-6 columns">-->
-            <!--<div class="panel">-->
-            <!--<p>Contact us!</p>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
-
 
             <a href="" class="ego-link" id="contact-us">Contact us</a>
 
@@ -60,7 +50,7 @@
         </div>
 
         <div id="contact-us-form" style="display:none" class="slide">
-            <a href="#" class="back-link contact-back-link">back to home page</a>
+            <a href="#" class="back-link contact-back-link">back to the home page</a>
 
             <form class="form-horizontal">
 
@@ -86,28 +76,36 @@
 
         </div>
 
-        <div id="hiring" style="display:none"  class="slide">
-            <a href="#" class="back-link hiring-back-link">back to home page</a>
+        <div id="hiring" style="display:none" class="slide">
+            <a href="#" class="back-link hiring-back-link">back to the home page</a>
 
             <div class="hiring-message">
-                <p>We're on a constant lookout for top notch developers!</p>
+                <p>We search for bright people all the time.</p>
 
                 <div style="padding-left:40px; padding-top:30px;">
-                <p >If you're </p>
-                <ul style="padding-left: 20px">
-                    <li>a full-stack developer</li>
-                    <li>iOS developer</li>
-                    <li>Android developer</li>
-                </ul>
+                    <p>If you're </p>
+                    <ul style="padding-left: 20px">
+                        <li>a full-stack developer</li>
+                        <li>an iOS developer</li>
+                        <li>an Android developer</li>
+                    </ul>
                 </div>
 
-                <p style="width: 700px; margin-left:40px; margin-top: 40px;">contact us at <a href="mailto:info@brightinventions.pl">info@brightinventions.pl</a> and we'll arrange for a meeting!</p>
+                <p style="width: 700px; margin-left:40px; margin-top: 40px;">contact us at <a
+                        href="mailto:info@brightinventions.pl">info@brightinventions.pl</a> and let's see if we do something together.</p>
 
 
             </div>
 
 
+        </div>
 
+        <div id="aboutus" style="display:none" class="slide">
+            <a href="#" class="back-link hiring-back-link">back to home page</a>
+
+            <div class="hiring-message">
+                We're a team of 6 nice software engineers who like to do things that matter.
+            </div>
 
 
         </div>
@@ -141,6 +139,12 @@
     $(".hiring-link").click(function () {
         $(".slide").hide();
         $("#hiring").show();
+        return false;
+    });
+
+    $(".aboutus-link").click(function () {
+        $(".slide").hide();
+        $("#aboutus").show();
         return false;
     });
 
@@ -203,10 +207,13 @@
     _gaq.push(['_setAccount', 'UA-29336006-1']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
     })();
 
 </script>

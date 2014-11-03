@@ -86,12 +86,15 @@ h1 {
     display: block;
 }
 
-.hiring-link {
+.top-links {
     position: absolute;
     top:20px;
     right:20px;
-    background-color: #0099dd;
-    color:white;
+}
+
+.top-links a{
+    background-color:white;
+    color:#0099dd;
     padding: 5px 10px;
     border-radius:5px;
     -webkit-transition: all 0.25s ease;
@@ -99,11 +102,12 @@ h1 {
     -o-transition: all 0.25s ease;
     -ms-transition: all 0.25s ease;
     transition: all 0.25s ease;
+    margin-left:10px;
 }
 
-.hiring-link:hover {
-    background-color:white;
-    color:#0099dd;;
+.top-links a:hover {
+    background-color: #0099dd;
+    color:white;
     text-decoration: none;
 }
 
@@ -146,7 +150,7 @@ h1 {
 
 .back-link {
     position: absolute;
-    left:30px;
+    right:30px;
     top:20px;
 }
 
